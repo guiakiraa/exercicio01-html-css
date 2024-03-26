@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: red;
+    text-align: center;
+    padding:50px;
+    color: white;
+}
+
+.cabecalho > img {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+.menu {
+    background-color: rgb(59, 0, 0);
+    box-sizing: content-box;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.principal {
+    width: 50%;
+    background-color: rgb(52, 105, 105);
+    float: left;
+}
+
+.principal > img {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.principal > h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.principal > p {
+    text-align: justify;
+    margin: 30px;
+}
+
+.secundario {
+    width: 25%;
+    height: 385px;
+    float: left;
+    background-color: blanchedalmond;
+}
+
+.secundario > h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.secundario > p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.propaganda1 {
+    background-color: darkgrey;
+    padding: 87.25px;
+}
+
+.propaganda2 {
+    background-color: darkkhaki;
+    padding: 87.25px;
+}
+
+.propaganda1 > a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 50px 10px 50px;
+    background-color: aquamarine;
+    font-size: 25px;
+}
+
+.propaganda2 > a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(255, 127, 249);
+    font-size: 25px;
+}
