@@ -37,8 +37,9 @@ h1 {
 
 .principal {
     width: 50%;
-    background-color: rgb(52, 105, 105);
+    height: 480px;
     float: left;
+    background-color: rgb(52, 105, 105);
 }
 
 .principal > img {
@@ -58,6 +59,7 @@ h1 {
 
 .secundario {
     width: 25%;
+    height: 480px;
     float: left;
     background-color: blanchedalmond;
 }
@@ -72,7 +74,40 @@ h1 {
     margin: 20px;
 }
 
+.anuncios {
+    width: 25%;
+    height: 480px;
+    float: left;
+    background-color: chartreuse;
+}
+
 .anuncio1 {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.anuncio1 > a {
+    background-color: dimgray;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+}
+
+.anuncio2 {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.anuncio2 > a{
+    background-color: mediumaquamarine;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+}
+
+/*.anuncio1 {
     background-color: rgb(79, 79, 150);
     float: right;
     margin-right: 80px;
@@ -100,18 +135,83 @@ h1 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+} */
+
+.artigos {
+    width: 50%;
+    height: 240px;
+    background-color: burlywood;
+    float: left;
 }
 
 .artigo1 {
-    float: bottom;
-    width: 50%;
+    width: 70%;
+    height: 180px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 
+.imagem {
+    margin: 15px;
+}
 
+.artigo1 > p {
+    float: right;
+    width: 55%;
+    text-align: justify;
+    margin-right: 10px;
+}
 
+.artigo1 > h2 {
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: -95px;
+}
 
+.artigos2 {
+    width: 50%;
+    height: 240px;
+    background-color: rgb(235, 158, 231);
+    float: left;
+}
 
 .artigo2 {
+    width: 70%;
+    height: 180px;
+    background-color: rgb(221, 156, 140);
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.artigo2 > p {
     float: right;
-    width: 50%;
+    width: 55%;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.artigo2 > h2 {
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: -95px;
+}
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.rodape > p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 }
