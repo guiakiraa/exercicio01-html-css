@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     background-color: red;
     text-align: center;
@@ -54,7 +58,6 @@ h1 {
 
 .secundario {
     width: 25%;
-    height: 385px;
     float: left;
     background-color: blanchedalmond;
 }
@@ -69,28 +72,46 @@ h1 {
     margin: 20px;
 }
 
-.propaganda1 {
-    background-color: darkgrey;
-    padding: 87.25px;
+.anuncio1 {
+    background-color: rgb(79, 79, 150);
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
+    padding: 15px 40px 15px 40px;
 }
 
-.propaganda2 {
-    background-color: darkkhaki;
-    padding: 87.25px;
-}
-
-.propaganda1 > a {
+.anuncio1 > a {
+    font-size: 20px;
     text-decoration: none;
-    margin-left: 20px;
-    padding: 10px 50px 10px 50px;
-    background-color: aquamarine;
-    font-size: 25px;
+    color: black;
+    font-weight: bold;
 }
 
-.propaganda2 > a {
+.anuncio2 {
+    background-color: rgb(79, 79, 150);
+    float: right;
+    margin-right: 80px;
+    margin-top: 70px;
+    padding: 15px 40px 15px 40px;
+}
+
+.anuncio2 > a {
+    font-size: 20px;
     text-decoration: none;
-    margin-left: 20px;
-    padding: 10px 50px 10px 50px;
-    background-color: rgb(255, 127, 249);
-    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.artigo1 {
+    float: bottom;
+    width: 50%;
+}
+
+
+
+
+
+.artigo2 {
+    float: right;
+    width: 50%;
 }
