@@ -42,7 +42,7 @@ h1 {
 }
 
 .principal {
-    width: 50%;
+    max-width: 50%;
     height: 480px;
     float: left;
     /* background-color: rgb(52, 105, 105); */
